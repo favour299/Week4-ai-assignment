@@ -4,7 +4,7 @@ Name: Favour Azu
 
 ## Question 1
 Data is a collection of information. 
-*Examples*
+*Examples:*
 *Temperature Readings:* A list of hourly temperatures like "63°F","43°F","56°F".
 *Customer Reviews:* Text-based feedback,such as "product was great" or "servic was slow".
 
