@@ -9,10 +9,11 @@ What is Data? Explain in your own words and give two Examples .
 Data is raw inputs (facts, observations or values) that can be collected and analyzed to produce information or insight.
 
 Example 1: Perfumes Shop Data
-| Perfumes      Prices |
-|--------- |-----------|
-|  Creed---|6500 KES   |
-| Tom Ford-| 7500 KES  |
+| Perfumes      |Prices     |
+|---------------|-----------|
+|Creed----------|6500 KES---|
+|Tom Ford-------|7500 KES---|
+
 A data analyst could use it to find:
 
 The cost of perfumes and the most selling.
@@ -98,17 +99,21 @@ Simple Example
 The schema defines the structure like this:
 
 Column Name	Data Type	Description
-|Student_ID--|Number-----|Unique ID for each student
-|Name--------|Text-------|Student name|
-|Age---------|Number-----|Student age |
+|Student       |    ID      |Student unique ID|
+|--------------|------------|-----------------|
+|Name----------|Text--------|Student name-----|
+|Age-----------|Number------|Student age------| 
+
 Course	Text	Course the student studies
 This structure (columns and data types) is the schema.
 
 *Actual stored data may look like this:*
 
-|Student_ID	|Name-------|Age--------|Course
-|101--------|Moses------|19---------|Data Science
-|102--------|James------|24---------|AI Engineering
+|Student ID   |  Names    | Age       | Course       |
+|-------------|-----------|---------- |-----------   |
+|101----------|Moses------|19---------|Data Science  |
+|102----------|James------|24---------|AI Engineering|
+
 The schema defines the format, while the rows contain the real data.
 
 Schema = the blueprint of how data is organized.
