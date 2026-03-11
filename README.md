@@ -9,7 +9,8 @@ Data is a collection of information.
 *Customer Reviews:* Text-based feedback,such as "product was great" or "servic was slow".
 
 ## Question 2
-Your answer here
+*Structured Data:* Is highly organized, quantitative informadition in tables with rows and coloums.
+
 
 ## Question 3
 Your answer here
