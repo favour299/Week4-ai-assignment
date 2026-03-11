@@ -3,28 +3,153 @@
 Name: Favour Azu
 
 ## Question 1 
-Data is a collection of information. 
-       *Examples:*
-*Temperature Readings:* A list of hourly temperatures like "63°F","43°F","56°F".
-*Customer Reviews:* Text-based feedback,such as "product was great" or "servic was slow".
+
+What is Data? Explain in your own words and give two Examples .
+
+Data is raw inputs (facts, observations or values) that can be collected and analyzed to produce information or insight.
+
+Example 1: Perfumes Shop Data
+
+*Perfumes and their prices.*
+.Creed 6500 KES
+.Tom Ford 7500 KES
+A data analyst could use it to find:
+
+The cost of perfumes and the most selling.
+
+The most expensive and affordable once.
+
+Example 1: Customer Purchase Data
+
+A Reseller collects the following data
+
+Customer ID	Product Price	Date
+-101 Rice	1000 KES	10 Mar
+-102 Meat	800 KES	10 Mar
+-103 Vegetables 500 KES 10 mar
+*These entries are data.*
+
+A data analyst can analyze this to discover:
+
+.Most purchased products
+
+.Customer buying patterns
+
+.Sales trends
 
 ## Question 2
-*Structured Data:* Is highly organized, quantitative informadition in tables with rows and coloums.
-     *Examples of Structured Data*
-     -Relational Databases:Costumer names,phone numbers, and address lists.
-     -Financial Records:Excel spreadsheets,transaction logs, and SQL data.
-     -Numeric Data:IoT sensor readings,stock prices and timestamps.
-*Unstructured Data:* Lacks a pre-defined model, rigid model or structure.
-       *Examples of Unstructured Data*
-       -Multimedia: Photos, videos files, and audio recordings.
-       -Text Documents: PDFs, word documents, emails and presentations.
-       -Social Media: Tweets, posts and comments.
-    
+
+Explain the difference between: Structured Data and Unstructured Data. Give_ two Examples of each.
+
+Structured data is data that is organized in a fixed format, usually in rows and columns like a table or spreadsheet.
+
+It follows a clear structure and predefined schema, making it easy for computers to store, search, and analyze.
+
+*Examples of Structured Data*
+
+*Student database table*
+
+Name:      ID      Phone  number
+David      001     07044678491
+Emma       002     0705546789
+Desmond    004     07066332718
+
+*Phone repair records*
+
+Phone Model	Problem	Repair Cost
+Samsung A12	Screen damage 2	3500 KES
+iPhone 11	Battery issue	4500 KES
+
+Unstructured data is data that does not follow a predefined format or table structure.
+
+It is usually text-heavy or multimedia content that is harder for computers to analyze directly.
+
+*Examples of Unstructured Data*
+
+Customer emails or messages:
+
+"My Samsung phone keeps restarting after the update."
+Media files
+
+.Photos
+
+.Videos
+
+.Audio recordings
+
+*Simple way to remember:*
+
+Structured Data = Organized (Tables, Databases).
+
+Unstructured Data = Not Organized (Text, Images, Videos).
 
 ## Question 3
-A schema is a cotgnitive framework or concept that helps organize and interpret information.
-            *Examples*
-            -Physical Schema: Details how data is stored on disk (files, indices).
-            -Logical Schema: Defines tables, data types, and integrity constraints.
-            -Conceptual Schema: A high-level, business-oriented view of the data.
+
+What is a Schema Explain using a simple example.
+
+A schema is a blueprint or structure that defines how data is organized in a database.
+
+Think of a schema like a youtube tutorial about Python syntax before writing a single line of code.
+
+It tells the database what the data should look like before storing it.
+
+Simple Example
+
+The schema defines the structure like this:
+
+Column Name	Data Type	Description
+Student_ID	Number	Unique ID for each student
+Name	Text	Student name
+Age	Number	Student age
+Course	Text	Course the student studies
+This structure (columns and data types) is the schema.
+
+*Actual stored data may look like this:*
+
+Student_ID	Name	Age	Course
+101	Moses	19	Data Science
+102	James	24	AI Engineering
+The schema defines the format, while the rows contain the real data.
+
+Schema = the blueprint of how data is organized.
+*Bonus Question*
+
+Explain the difference between:
+
+A list
+A dictionary
+A list is a collection of items stored in order and can be accessed using its position (index).
+
+Example
+
+Python
+
+phones = ["Samsung", "iPhone", "Tecno", "Nokia"]
+
+Here:
+
+"Samsung" is index 0
+
+"iPhone" is index 1
+
+"Tecno" is index 2
+
+You access items using the index:
+
+Python
+
+print(phones[0]) # Samsung
+
+A dictionary stores data as key–value pairs. Instead of using positions, you access values using their keys.
+
+Python
+
+phone = {
+"brand": "Samsung",
+"model": "A12",
+"price": 15000
+}
+Here:
+
+"brand" → key
             
