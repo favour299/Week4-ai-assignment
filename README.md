@@ -2,7 +2,7 @@
 
 Name: Favour Azu
 
-## Question 1
+## Question 1 
 Data is a collection of information. 
        *Examples:*
 *Temperature Readings:* A list of hourly temperatures like "63°F","43°F","56°F".
@@ -22,4 +22,9 @@ Data is a collection of information.
     
 
 ## Question 3
-Your answer here
+A schema is a cotgnitive framework or concept that helps organize and interpret information.
+            *Examples*
+            -Physical Schema: Details how data is stored on disk (files, indices).
+            -Logical Schema: Defines tables, data types, and integrity constraints.
+            -Conceptual Schema: A high-level, business-oriented view of the data.
+            
