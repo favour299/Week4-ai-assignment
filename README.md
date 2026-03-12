@@ -10,9 +10,9 @@ Data is raw inputs (facts, observations or values) that can be collected and ana
 
 Example 1: Perfumes Shop Data
 | Perfumes      |Prices     |
-|---------------|-----------|
-|Creed----------|6500 KES---|
-|Tom Ford-------|7500 KES---|
+|               |           |
+|Creed          |6500 KES   |
+|Tom Ford       |7500 KES   |
 
 A data analyst could use it to find:
 
@@ -50,14 +50,14 @@ It follows a clear structure and predefined schema, making it easy for computers
 
 *Student database table*
 |Name       | ID        |  Phone number|
-|---------- |-----------|------------- |
-|David------|001--------|07044678491-- |
-|Emma-------|002--------|0705546789--- |
-|Desmon-----|004--------|07066332718---|
+|           |           |              |
+|David      |001        |07044678491   |
+|Emma       |002        |0705546789    |
+|Desmon     |004        |07066332718   |
 
 *Phone repair records*
 |Phone      |   Problem      |    Cost  |
-|-----------|----------------|----------|
+|           |                |          |
 |Samsung A12| Screen damage  |3500 KES  |
 |iPhone 11  | Battery issue  |4500 KES  |
 
@@ -101,8 +101,8 @@ The schema defines the structure like this:
 Column Name	Data Type	Description
 |Student       |    ID      |Student unique ID|
 |--------------|------------|-----------------|
-|Name----------|Text--------|Student name-----|
-|Age-----------|Number------|Student age------| 
+|Name          |Text        |Student name     |
+|Age           |Number      |Student age      | 
 
 Course	Text	Course the student studies
 This structure (columns and data types) is the schema.
@@ -111,8 +111,8 @@ This structure (columns and data types) is the schema.
 
 |Student ID   |  Names    | Age       | Course       |
 |-------------|-----------|---------- |-----------   |
-|101----------|Moses------|19---------|Data Science  |
-|102----------|James------|24---------|AI Engineering|
+|101          |Moses      |19         |Data Science  |
+|102          |James      |24         |AI Engineering|
 
 The schema defines the format, while the rows contain the real data.
 
