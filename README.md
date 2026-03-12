@@ -9,10 +9,10 @@ What is Data? Explain in your own words and give two Examples .
 Data is raw inputs (facts, observations or values) that can be collected and analyzed to produce information or insight.
 
 Example 1: Perfumes Shop Data
-| Perfumes      |Prices     |
-|               |           |
-|Creed          |6500 KES   |
-|Tom Ford       |7500 KES   |
+|Perfumes      |Prices    |
+|--------------|----------|
+|Creed         |6500 KES  |
+|Tom Ford      |7500 KES  |
 
 A data analyst could use it to find:
 
@@ -24,7 +24,7 @@ Example 1: Customer Purchase Data
 
 A Reseller collects the following data
 |Costumer ID     |  Price  |   Date   |
-|                |         |          |
+|----------------|---------|----------|
 |101 Rice        |1000 KES | 10 Mar   |
 |102 Meat        |800 KES  | 10 Mar   |
 |103 Vegetable   |500 KES  | 10 mar   | 
@@ -50,14 +50,14 @@ It follows a clear structure and predefined schema, making it easy for computers
 
 *Student database table*
 |Name       | ID        |  Phone number|
-|           |           |              |
+|-----------|-----------|--------------|
 |David      |001        |07044678491   |
 |Emma       |002        |0705546789    |
 |Desmon     |004        |07066332718   |
 
 *Phone repair records*
 |Phone      |   Problem      |    Cost  |
-|           |                |          |
+|-----------|----------------|----------|
 |Samsung A12| Screen damage  |3500 KES  |
 |iPhone 11  | Battery issue  |4500 KES  |
 
@@ -121,10 +121,10 @@ Schema = the blueprint of how data is organized.
 
 Explain the difference between:
 
-A list
-A dictionary
+.A list
+.A dictionary
 A list is a collection of items stored in order and can be accessed using its position (index).
 
-Example
+
 
             
