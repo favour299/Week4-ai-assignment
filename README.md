@@ -24,10 +24,10 @@ Example 1: Customer Purchase Data
 
 A Reseller collects the following data
 |Costumer ID     |  Price  |   Date   |
-|---------       |---------|----------|
-|101 Rice--------|1000 KES | 10 Mar   |
-|102 Meat------- |800 KES  | 10 Mar   |
-|103 Vegetable---|500 KES  | 10 mar   | 
+|                |         |          |
+|101 Rice        |1000 KES | 10 Mar   |
+|102 Meat        |800 KES  | 10 Mar   |
+|103 Vegetable   |500 KES  | 10 mar   | 
 *These entries are data.*
 
 A data analyst can analyze this to discover:
